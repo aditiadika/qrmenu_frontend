@@ -7,10 +7,10 @@ import Login from '../pages/Login'
 export default function App() {
   return (
     <BrowserRouter>
-        <Switch>
-            <Route exact path="/" component={Home} />
-            <Route exact path="/login" component={Login} />
-        </Switch>
+      <Switch>
+        <Route path="/" component={Home} />
+        <Route path="/login" component={Login} />
+      </Switch>
     </BrowserRouter>
   )
 }
